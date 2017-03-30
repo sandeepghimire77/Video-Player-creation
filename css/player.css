@@ -1,0 +1,87 @@
+#player {
+    background-color: rgb(30,30,30);
+    display: inline-block;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+
+
+img {
+    /*  why we use img tag is that we want to see the image . its unseen if body is dark gray. so change img color to light gray*/
+    background-color: rgb(70,70,70);
+}
+
+/* if we want to simultaneosly select some 2 ,3 or more elements in css we just do it using a commaa(,,,,,) */
+img, #pbar-container, #sbar-container {
+    cursor: pointer;
+}
+
+
+/* container */
+
+#video-container {
+    width: 640px;
+    height: 320px;
+
+}
+    video {
+        /*  this will help to resize the video to the same of video container */
+        height: 100%;
+        width: 100%;
+    }
+
+#pbar-container {
+    padding-bottom: 2px;
+    background-color :rgb(70,70,70);
+    margin-top: 2px;
+}
+#pbar {
+    height: 5px;
+    width: 50%;
+    background-color: rgb(50,170,220);
+}
+
+#buttons-container {
+    height: 50px;
+}
+
+#buttons-container > * {
+display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+
+    margin: 0 10px;
+}
+#time-field {
+    color: rgb(50,170,220);
+    line-height: 50px;
+    cursor: default;
+}
+#sbar-container {
+    width: 100px;
+    height: 5px;
+    background-color: rgb(70,70,70);
+    margin-left: 0;
+
+}
+#sound-button {
+    margin-right: 0;
+}
+#sbar {
+    height: 100%;
+    width: 60%;
+    background-color: rgb(50,170,220);
+}
+#fullscreen-button {
+    float: right;
+}
+
+
+
+
+
+
+

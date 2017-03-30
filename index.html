@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Html 5 video player creation
+    </title>
+    <link rel = "stylesheet" type="text/css" href="css/player.css">
+    <script type="text/javascript" src="player.js"></script>
+
+
+</head>
+<body>
+<div id="player">
+
+    <div id="video-container">
+        <video id ="video" poster="Images/thumbnail.png"     > <!-- yesma controls rakha pachi video play huncha -->
+            <source src="simple1.3gp">
+            It seems your browser doesn't support the HTML5 video tag. Please update it!
+        </video>
+    </div>
+
+    <div id="pbar-container">
+        <div id="pbar"></div>
+    </div>
+
+    <div id="buttons-container">
+        <img id="play-button" src="Images/play.png">
+        <div id="time-field">
+            0:00 / 0:00
+        </div>
+        <img id="sound-button" src="Images/sound.png">
+        <div id="sbar-container">
+            <div id="sbar"></div>
+        </div>
+        <img id="fullscreen-button" src="Images/fullscreen.png">
+    </div>
+
+</div>
+
+</body>
+</html>
